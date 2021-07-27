@@ -1,0 +1,13 @@
+.emoji-menu{
+    position: fixed;
+    background-color: #161C21;
+    z-index: 100;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.first-row{
+    padding-top: 40px;
+}
+.no-margin{
+    margin: 0px;
+}

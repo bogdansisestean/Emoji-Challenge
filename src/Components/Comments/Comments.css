@@ -1,0 +1,119 @@
+.main-box{
+    text-align: left;
+    padding: 24px;
+    background: #1d252c;
+    border-radius: 8px;
+}
+h1,h2,h4,h5,p{
+    color: #cccccc;
+}
+.single-comment{
+    margin-top: 30px!important;
+    text-align: left;
+    background: #161C21;
+    padding: 16px 16px 16px 12px;
+    border: 0.1px solid #3d4953;
+    border-radius: 8px;
+}
+.commentInput{
+    font-family: inherit;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    resize: none;
+    background: #13181d;
+    padding: 12px;
+    color: #cccccc;
+    border: none;
+    max-width: 100%;
+    min-width: 100%;
+    margin-top: 30px;
+}
+.btn-primary{
+    margin-top: 30px;
+    background-color: #13181D;
+    border-color: #13181D;
+}
+.modal-content{
+    text-align: left;
+    background: #1d252c;
+    border-radius: 8px;
+}
+.picker-card{
+    text-align: left;
+    background: #1d252c;
+    border-radius: 8px;
+}
+.searchInput{
+    font-family: inherit;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    resize: none;
+    background: #13181d;
+    padding: 12px;
+    color: #cccccc;
+    border: none;
+    max-width: 100%;
+    min-width: 100%;
+}
+h2{
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    display: block;
+    padding: 0 10px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: #bdbdbd;
+    height: 30px;
+    line-height: 30px;
+    box-sizing: border-box;
+    transition: color .2s;
+}
+.emoji-picker{
+
+    height: 45px;
+    width: 20px;
+    background-size: 18px auto;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    opacity: .4;
+    transition: opacity .3s;
+    transition-delay: .2s;
+}
+.picker-card{
+    width: auto;
+    display: block;
+    position: relative;
+    padding: 0;
+    border-radius: 3px;
+    overflow: hidden;
+    font-family: sans-serif;
+    max-height: 400px;
+    overflow: scroll;
+}
+.first-row{
+    padding-top: 25px;
+}
+.singleEmoji{
+    color: white;
+}
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #161C21;
+    border-radius: 10px;
+  }
